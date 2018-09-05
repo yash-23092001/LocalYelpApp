@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/localLinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/textThing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Register here"
+        android:textSize="40sp"
+        android:textColor="#F0FFF0"
+        android:typeface="serif"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <EditText
+        android:id="@+id/userNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#F0FFF0"
+        android:ems="10"
+        android:hint="What's your username?"
+        android:textColor="#F0FFF0"
+        android:textColorHint="#F0FFF0"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F0FFF0"
+        android:ems="10"
+        android:hint="Enter your email address"
+        android:inputType="textEmailAddress"
+        android:textColor="#F0FFF0"
+        android:textColorHint="#F0FFF0"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/passwordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F0FFF0"
+        android:ems="10"
+        android:hint="Enter a password"
+        android:inputType="textPassword"
+        android:textColor="#F0FFF0"
+        android:textColorHint="#F0FFF0"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/passwordRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="#F0FFF0"
+        android:textColor="#F0FFF0"
+        android:textCursorDrawable="@null"
+        android:textColorHint="#F0FFF0"
+        android:hint="Re-enter password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/registerNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0FFF0"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="40dp"
+        android:text="Register" />
+
+</LinearLayout>
