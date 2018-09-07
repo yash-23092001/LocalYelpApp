@@ -1,6 +1,8 @@
 
 The idea of the app is to popularize local specialties that are not documented on google maps / yelp. For things like local events, the best transportation systems, best food etc. 
 
+Main features are account based reviews, local area browsing (based on your long/lat) and ability to post events/areas. 
+
 Things to work on:
 
 Implement Nearby using Geocode coordinates and Location Coordinates
